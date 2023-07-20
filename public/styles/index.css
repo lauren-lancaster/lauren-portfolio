@@ -1,0 +1,241 @@
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: 'Inter';
+}
+
+.home-container {
+  background-image: url(/images/sunrise.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 830px;
+  width: 1440px;
+  margin: 0;
+}
+
+#title {
+  position: absolute;
+  left: 111px;
+  top: 160px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 72px;
+  color: #DB5A05;
+  text-shadow: 0px 4px 4px #000000c2;
+}
+
+#subtitle {
+  position: absolute;
+  left: 111px;
+  top: 260px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 52px;
+  color: #c8d7d4;
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.about {
+  position: absolute;
+  left: 108px;
+  top: 430px;
+  background-color: #33333370;
+  width: 638px;
+  height: 161px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #c8d7d4
+}
+
+.navbar {
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  top: 700px;
+  height: 2000px;
+  /* z-index: -1;  */
+}
+
+.page-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 1000px;
+}
+
+#home-nav {
+  position: sticky;
+  top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF934C;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  justify-content: space-around;
+  background-color: #000000;
+  z-index: 1;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #FF934C;
+}
+
+.projects {
+  position: absolute;
+  top: 750px;
+  left: 0px;
+  width: 1440px;
+  background-color: #000000;
+  padding: 200px;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+  color: #FF934C;
+}
+
+.underline:hover {
+    cursor: pointer;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF934C;
+  transition: transform 0.25s ease-out;
+}
+
+.underline:hover::after {
+  transform: scaleX(1);
+}
+
+#projects-title {
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 64px;
+  color: #DB5A05;
+  text-shadow: 0px 2px 2px #c8d7d49c;
+  margin-bottom: 100px;
+}
+
+.project {
+  padding: 20px;
+  border: 2px solid #ff944c98;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  color: #a8d0c8;
+  font-size: 16px;
+  font-family: 'Fira Sans';
+  background-color: #01eda60c;
+}
+
+#project-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  color: white;
+  background-color: #b94a00;
+}
+
+#project-btn:hover {
+  background-color: rgb(216, 216, 216);
+  color: #b94a00;
+  cursor: pointer;
+}
+
+.project-name {
+  font-weight: bolder;
+  font-size: 36px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-shadow: 0px 2px 2px #c45300;
+}
+
+.project-school {
+  font-weight: bolder;
+  font-size: 30px;
+  text-shadow: 0px 2px 2px #c45300;
+}
+
+.project-group {
+  font-size: 24px;
+}
+
+.project-complete {
+  font-size: 20px;
+}
+
+.project-description {
+  font-family: 'Inter';
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.page {
+  position: absolute;
+  top: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 100px;
+  font-size: 16px;
+  color: #a8d0c8;
+}
+
+.page-header {
+  margin-top: 200px;
+  margin-left: 100px;
+  padding: 20px;
+  width: 85%;
+  background-color: #33333370;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: 'Inter';
+  font-size: 20px;
+  color: #c8d7d4
+}
+
+
+#page-title {
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 64px;
+  color: #DB5A05;
+  text-shadow: 0px 2px 2px #c8d7d49c;
+  margin-bottom: 10px;
+}
+
+#page-school {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 38px;
+  color: #c8d7d4;
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.page-link {
+  color: #DB5A05;
+}
