@@ -57,6 +57,29 @@ function Project() {
             discovered my love of code and what I consider to be the start of my
             journey into the tech world.{' '}
           </p>
+          <div className="gallery">
+            <div>
+              <img
+                src="/images/p5js1.png"
+                alt="p5js project example 1"
+                className="p5js-image"
+              />
+            </div>
+            <div>
+              <img
+                src="/images/p5js2.png"
+                alt="p5js project example 2"
+                className="p5js-image"
+              />
+            </div>
+            <div>
+              <img
+                src="/images/p5js3.png"
+                alt="p5js project example 3"
+                className="p5js-image"
+              />
+            </div>
+          </div>
           <Link to={`/`}>
             <button id="project-btn">Home</button>
           </Link>

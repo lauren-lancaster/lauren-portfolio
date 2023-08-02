@@ -60,6 +60,36 @@ function Project() {
             audience. For the speech, I had to adapt the way I talked about the
             project and the product to a non-technical audience.
           </p>
+          <div className="gallery">
+            <div className="project-image">
+              <img
+                src="/images/esc1.png"
+                alt="escape room example 1"
+                id="project-img"
+              />
+            </div>
+            <div className="project-image">
+              <img
+                src="/images/esc2.png"
+                alt="escape room example 2"
+                id="project-img"
+              />
+            </div>
+            <div className="project-image">
+              <img
+                src="/images/esc3.png"
+                alt="escape room example 3"
+                id="project-img"
+              />
+            </div>
+            <div className="project-image">
+              <img
+                src="/images/esc4.png"
+                alt="escape room example 4"
+                id="project-img"
+              />
+            </div>
+          </div>
           <Link to={`/`}>
             <button id="project-btn">Home</button>
           </Link>

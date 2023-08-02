@@ -66,6 +66,29 @@ function Project() {
             mapping, I would definitely recommend looking for options outside of
             Ableton that allow multiple components to be mapped at a time.
           </p>
+          <div className="gallery">
+            <div>
+              <img
+                src="/images/fh-music.png"
+                alt="french horn effects controller example 1"
+                className="horn-image"
+              />
+            </div>
+            <div>
+              <img
+                src="/images/effects1.png"
+                alt="french horn effects controller example 2"
+                className="horn-image"
+              />
+            </div>
+            <div>
+              <img
+                src="/images/effects2.png"
+                alt="french horn effects controller example 3"
+                className="horn-image"
+              />
+            </div>
+          </div>
           <Link to={`/`}>
             <button id="project-btn">Home</button>
           </Link>

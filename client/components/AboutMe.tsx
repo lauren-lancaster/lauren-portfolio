@@ -15,6 +15,9 @@ function About() {
         <div className="page-header">
           <h1 id="page-title">Lauren Lancaster</h1>
           <h2 id="page-school">Full Stack Software Dev</h2>
+          <h3>She/Her</h3>
+          <h4>Dev Academy Graduate</h4>
+          <h5>BMUS Hons first class at VUW</h5>
         </div>
         <div className="page" id="about-page">
           <p>
@@ -25,13 +28,11 @@ function About() {
             Up until recently I have been studying a bachelor of music at
             Victoria University of Wellington (which I have now graduated with
             first class honours). My major was in classical performance on the
-            French horn and my minor in music technologies.
-          </p>
-          <p>
-            It was my minor that sparked my interest in tech. Papers included
-            recording, mixing, audio production (which to my excitement included
-            film post production at Park Road Post), synthesis and electronic
-            music recording.
+            French horn and my minor in music technologies. It was my minor that
+            sparked my interest in tech. Papers included recording, mixing,
+            audio production (which to my excitement included film post
+            production at Park Road Post), synthesis and electronic music
+            recording.
           </p>
           <p>
             In my third year I did a paper that taught how to make audio
@@ -51,11 +52,48 @@ function About() {
             growing these skills in my future career and creating code that
             makes an impact.
           </p>
+          <p>
+            Outside of tech I work part time at Lush cosmetics and as a musician
+            in the Royal New Zealand Air Force Band. I also love to go tramping,
+            read fiction books, and play social volleyball.
+          </p>
+          <div className="gallery">
+            <div className="about-image">
+              <img src="/images/DevAc.jpg" alt="Dev Academy" id="about-img" />
+              <div className="desc">Final Presentations at Dev Academy</div>
+            </div>
+            <div className="about-image">
+              <img
+                src="/images/tongariro.jpg"
+                alt="Tongariro northern circuit"
+                id="about-img"
+              />
+              <div className="desc">
+                Tramping the Tongariro Northern Circuit
+              </div>
+            </div>
+            <div className="about-image">
+              <img
+                src="/images/play-fh.jpg"
+                alt="Air Force Band"
+                id="about-img"
+              />
+              <div className="desc">Performing with the Air Force Band</div>
+            </div>
+            <div className="about-image">
+              <img
+                src="/images/protools.png"
+                alt="Protools session"
+                id="about-img"
+              />
+              <div className="desc">ProTools session for film music</div>
+            </div>
+          </div>
+          <Link to={`/`}>
+            <button id="project-btn">Home</button>
+          </Link>
         </div>
       </div>
-      <Link to={`/`}>
-        <button id="project-btn">Home</button>
-      </Link>
     </>
   )
 }
