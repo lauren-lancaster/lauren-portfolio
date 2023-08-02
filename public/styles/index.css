@@ -239,3 +239,12 @@ body {
 .page-link {
   color: #DB5A05;
 }
+
+#about-page {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  width: 1440px;
+  margin-left: 0;
+  background-color: #000000;
+}

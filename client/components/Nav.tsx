@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom'
+
 function Nav() {
   return (
     <div id="home-nav">
       <a href="/files/cv.pdf" download>
         <p className="underline">CV</p>
       </a>
-      <p className="underline">About Me</p>
+      <Link to={`/aboutme`}>
+        <p className="underline">About Me</p>
+      </Link>
       <a
         href="https://github.com/lauren-lancaster"
         target="_blank"
