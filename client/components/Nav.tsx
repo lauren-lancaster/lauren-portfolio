@@ -19,7 +19,9 @@ function Nav() {
       >
         <p className="underline">LinkedIn</p>
       </a>
-      <p className="underline">Contact Me</p>
+      <a href="mailto:737lanc@gmail.com">
+        <p className="underline">Contact Me</p>
+      </a>
     </div>
   )
 }
