@@ -5,10 +5,18 @@ function Nav() {
         <p className="underline">CV</p>
       </a>
       <p className="underline">About Me</p>
-      <a href="https://github.com/lauren-lancaster">
+      <a
+        href="https://github.com/lauren-lancaster"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <p className="underline">GitHub</p>
       </a>
-      <a href="https://www.linkedin.com/in/lauren-lancaster-7a33b7192/">
+      <a
+        href="https://www.linkedin.com/in/lauren-lancaster-7a33b7192/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <p className="underline">LinkedIn</p>
       </a>
       <p className="underline">Contact Me</p>
