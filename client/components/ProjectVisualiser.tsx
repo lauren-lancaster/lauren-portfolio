@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 import Nav from './Nav'
 
 function Project() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className="page-nav">
