@@ -28,7 +28,7 @@ function Project() {
             <p>GitHub</p>
           </a>
           <a href="/files/documentation.pdf" download>
-            <p className="underline">Documentation</p>
+            <p className="page-link">Documentation</p>
           </a>
         </div>
         <div className="page">
