@@ -22,12 +22,16 @@ function Project() {
           <a
             href="https://github.com/lauren-lancaster/p5js-CMPO385"
             className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <p>GitHub</p>
           </a>
           <a
             href="https://editor.p5js.org/LaurenL737/full/QlV8P7b3-m"
             className="page-link"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <p>View Project</p>
           </a>

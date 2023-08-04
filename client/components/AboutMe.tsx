@@ -22,7 +22,7 @@ function About() {
         <div className="page" id="about-page">
           <p>
             Kia ora! I’m Lauren and I’m a software developer with a background
-            in in classical music and music technologies.
+            in classical music and music technologies.
           </p>
           <p>
             Up until recently I have been studying a bachelor of music at

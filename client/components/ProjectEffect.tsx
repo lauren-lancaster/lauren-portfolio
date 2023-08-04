@@ -22,8 +22,13 @@ function Project() {
           <a
             href="https://github.com/lauren-lancaster/Electronic-Horn"
             className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <p>GitHub</p>
+          </a>
+          <a href="/files/documentation.pdf" download>
+            <p className="underline">Documentation</p>
           </a>
         </div>
         <div className="page">

@@ -22,12 +22,16 @@ function Project() {
           <a
             href="https://github.com/lauren-lancaster/my-fullstack-collection"
             className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <p>GitHub</p>
           </a>
           <a
             href="http://lauren-book-collection.devacademy.nz/"
             className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <p>View Project</p>
           </a>

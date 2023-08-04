@@ -22,6 +22,8 @@ function Project() {
           <a
             href="https://github.com/lauren-lancaster/Esc"
             className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <p>GitHub</p>
           </a>
