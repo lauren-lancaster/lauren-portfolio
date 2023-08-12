@@ -20,6 +20,14 @@ function Project() {
           <h4>Complete</h4>
           <h5>2023</h5>
           <a
+            href="https://esc.pushed.nz/"
+            className="page-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>View Project</p>
+          </a>
+          <a
             href="https://github.com/lauren-lancaster/Esc"
             className="page-link"
             target="_blank"
