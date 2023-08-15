@@ -27,14 +27,6 @@ function Project() {
           >
             <p>GitHub</p>
           </a>
-          <a
-            href="http://lauren-book-collection.devacademy.nz/"
-            className="page-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p>View Project</p>
-          </a>
         </div>
         <div className="page">
           <p>
