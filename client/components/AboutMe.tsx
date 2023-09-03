@@ -47,10 +47,10 @@ function About() {
           </p>
           <p>
             Dev Academy has taught me a wide range of skills, including
-            Javascript, React and Redux, but also how to work in a team, and how
-            the basics of agile methodologies. I’m really looking forward to
-            growing these skills in my future career and creating code that
-            makes an impact.
+            Javascript, React and Redux, but also how to work in a team, and the
+            basics of agile methodologies. I’m really looking forward to growing
+            these skills in my future career and creating code that makes an
+            impact.
           </p>
           <p>
             Outside of tech I work part time at Lush cosmetics and as a musician
